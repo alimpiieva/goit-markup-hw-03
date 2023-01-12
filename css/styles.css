@@ -340,6 +340,20 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+/* ------- PORTFOLIO ------ */
+
+.filter-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    
+}
+
+.filter-item:not(:last-child){
+    margin-right: 24px;
+}
+
 .filter-btn{
 font-family: 'Roboto';
 font-style: normal;
@@ -357,6 +371,11 @@ border-radius: 4px;
 .filter-btn:focus{
 color: #FFFFFF;
 background: var(--pseudoclass-clr);
+}
+
+.portfolio-list {
+    display: flex;
+        align-items: center;
 }
 
 .portfolio-name{
