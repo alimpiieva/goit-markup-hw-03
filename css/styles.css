@@ -240,7 +240,7 @@ color: var(--secondary-text-color);
 /* ---------- SECTION 3 -------- */
 
 .activities{
-    padding: 120px;
+    padding: 120px 0;
 }
 .activities-header{
 font-weight: var(--main-header-font-weight);
@@ -342,11 +342,15 @@ letter-spacing: 0.02em;
 
 /* ------- PORTFOLIO ------ */
 
+.filter {
+    padding-bottom: 120px;
+    padding-top: 96px;
+}
+
 .filter-list{
     display: flex;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 
@@ -381,23 +385,15 @@ border: none;
     padding: 0;
     margin: 0;
     list-style: none;
-
+row-gap: 48px;
+column-gap: 24px;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-
-margin-left: -24px;
-    margin-top: -48px;
 }
 
 .portfolio-item{
     flex-basis: calc(100% / 3 - 24px);
-    margin-left: 24px;
-    margin-top: 48px;
-}
-
-.portfolio-item:nth-last-child(-n+3){
-    padding-bottom: 120px;
 }
 
 .portfolio-name{
